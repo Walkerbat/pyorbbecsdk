@@ -12,7 +12,7 @@ if not os.path.exists(dataset_dir):
     print(f"📁 已创建数据集目录: {dataset_dir}")
 
 
-def main():
+def capture_scene():
     pipeline = Pipeline()
     config = Config()
 
